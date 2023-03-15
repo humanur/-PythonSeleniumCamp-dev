@@ -16,7 +16,7 @@ def ogrenciSil():
   ad = input("Öğrenci adını giriniz: ")
   soyad = input("Öğrenci soyadını giriniz: ")
   adSoyad = ad + " " + soyad
-  ogrenciListesi.remove(AdSoyad)
+  ogrenciListesi.remove(adSoyad)
 ogrenciSil()
 print(ogrenciListesi)
 
